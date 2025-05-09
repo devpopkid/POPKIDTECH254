@@ -92,7 +92,7 @@ const {
 let {
   reagir
 } = require(__dirname + "/keizzah/app");
-var session = conf.session.replace(/BELTAH-MD;;;=>/g, '');
+var session = conf.session.replace(/POPKID-MD;;;=>/g, '');
 const prefixe = conf.PREFIXE || [];
 require('dotenv').config({
   'path': "./config.env"
