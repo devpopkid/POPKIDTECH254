@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "s": "node popkidke.js", 
-    "beltahh": "pm2 start popkidke.js --attach --max-memory-restart 490M",
+    "popkidd": "pm2 start popkidke.js --attach --max-memory-restart 490M",
     "c": "tsc"
   },
   "keywords": [
