@@ -64,12 +64,12 @@ keith({
 });
 
 keith({
-  nomCom: "beltahmd",
-  aliases: ["beltamd", "beltahbot"],
+  nomCom: "popkidmd",
+  aliases: ["popmd", "popkidbot"],
   reaction: '⚔️',
   categorie: "AI"
 }, async (dest, zk, params) => {
-  handleAiCommand(dest, zk, params, "https://bk9.fun/ai/BK93?BK9=you%20are%20zoro%20from%20one%20piece&q=", "Hello there, This is BELTAH-MD BOT, How may I help you with?");
+  handleAiCommand(dest, zk, params, "https://bk9.fun/ai/BK93?BK9=you%20are%20zoro%20from%20one%20piece&q=", "Hello there, This is POPKID-MD BOT, How may I help you with?");
 });
 
 keith({
@@ -118,9 +118,9 @@ keith({
       contextInfo: {
         externalAdReply: {
           title: conf.BOT,
-          body: "keep learning wit BELTAH-MD",
+          body: "keep learning wit POPKID-MD",
           thumbnailUrl: conf.URL,
-          sourceUrl: "https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F",
+          sourceUrl: "https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l",
           mediaType: 1,
           showAdAttribution: true,
         },
