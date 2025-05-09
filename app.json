@@ -1,6 +1,6 @@
 {
-  "name": "BELTAH-MD BOT",
-  "description": "BELTAH-MD is a multidevice WhatsApp bot built to make your WhatsApp enjoyable...",
+  "name": "POPKID-MD BOT",
+  "description": "POPKID-MD is a multidevice WhatsApp bot built to make your WhatsApp enjoyable...",
   "keywords": [
     "bot",
     "node",
@@ -8,7 +8,7 @@
     "whatsapp"
   ],
   "logo": "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
-  "repository": "https://github.com/Beltah254/BELTAH-MD",
+  "repository": "https://github.com/Popkiddevs/POPKID-XTECH",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -19,7 +19,7 @@
     },
     "BOT_NAME": {
       "description": "Change this if you don't like my name",
-      "value": "BELTAH-MD",
+      "value": "POPKID-XTECH",
       "required": true 
 
     },
@@ -50,7 +50,7 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '254114141192')",
-      "value": "254114141192",
+      "value": "254732297194",
       "required": false
     },
     "PRESENCE": {
