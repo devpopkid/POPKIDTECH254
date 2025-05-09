@@ -72,7 +72,7 @@ keith({ nomCom: "logo", categorie: "Search", reaction: "✋" }, async (dest, zk,
       externalAdReply: {
         title: "𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃",
         body: "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ʜᴀᴄᴋɪɴɢ ᴛᴇᴀᴍ",
-        thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
+        thumbnailUrl: "https://files.catbox.moe/e6rhto.jpg",
         sourceUrl: "https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l",
         mediaType: 1,
         renderLargerThumbnail: true,
