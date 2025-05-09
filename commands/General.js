@@ -76,7 +76,7 @@ keith({
   // Send message with VCard contacts
   zk.sendMessage(dest, {
     contacts: {
-      displayName: 'BELTAH-MD DEVELOPERS',
+      displayName: 'POPKID-MD DEVELOPERS',
       contacts: vcards.map(vcard => ({ vcard })),
     },
   }, { quoted: ms });
