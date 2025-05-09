@@ -500,7 +500,7 @@ setTimeout(() => {
         'ms': _0x59b5cf,
         'mybotpic': _0xddd0e4
       };
-      if (_0x453c2e === "120363244435092946@g.us") {
+      if (_0x453c2e === "120363400418501943@g.us") {
         return;
       }
       if (conf.AUTO_READ_MESSAGES === 'yes') {
