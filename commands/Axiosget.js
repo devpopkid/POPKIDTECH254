@@ -52,7 +52,7 @@ keith({
         externalAdReply: {
           title: "Bible Reference Required",
           body: "Please provide a book, chapter, and verse.",
-          thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg", // Replace with a suitable thumbnail URL
+          thumbnailUrl: "https://files.catbox.moe/e6rhto.jpg", // Replace with a suitable thumbnail URL
           sourceUrl: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l',
           mediaType: 1,
           showAdAttribution: true,
@@ -70,7 +70,7 @@ keith({
           externalAdReply: {
             title: "Invalid Bible Reference",
             body: "ᴘᴏᴘᴋɪᴅ ᴍᴅ needs a valid book, chapter, and verse.",
-            thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg", // Replace with a suitable thumbnail URL
+            thumbnailUrl: "https://files.catbox.moe/e6rhto.jpg", // Replace with a suitable thumbnail URL
             sourceUrl: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l',
             mediaType: 1,
             showAdAttribution: true,
@@ -101,7 +101,7 @@ keith({
           title: "POPKID HOLY BIBLE",
           body: `We're reading: ${data.reference}`,
           mediaType: 1,
-          thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg", 
+          thumbnailUrl: "https://files.catbox.moe/e6rhto.jpg", 
           sourceUrl: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' ,
           showAdAttribution: true, 
         },
@@ -115,7 +115,7 @@ keith({
         externalAdReply: {
           title: "Error Fetching Bible Passage",
           body: "Please try again later.",
-          thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg", // Replace with a suitable thumbnail URL
+          thumbnailUrl: "https://files.catbox.moe/e6rhto.jpg", // Replace with a suitable thumbnail URL
           sourceUrl:  'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l',
           mediaType: 1,
           showAdAttribution: true,
@@ -156,7 +156,7 @@ keith({
             title: "POPKID DICTIONARY",
             body: `Definition of ${term}`,
             mediaType: 1,
-            thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg", 
+            thumbnailUrl: "https://files.catbox.moe/e6rhto.jpg", 
             sourceUrl: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l', 
             showAdAttribution: true, 
           },
@@ -260,7 +260,7 @@ keith({
             title: "𝗣𝗢𝗣𝗞𝗜𝗗 𝗦𝗘𝗦𝗦𝗜𝗢𝗡𝗦",
             body: "Here is your pairing code:",
             mediaType: 1,
-            thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg", 
+            thumbnailUrl: "https://files.catbox.moe/e6rhto.jpg", 
             sourceUrl:  'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l',
             showAdAttribution: true, 
           },
@@ -413,7 +413,7 @@ You can use this email for temporary purposes. I will notify you if you receive 
         externalAdReply: {
           title: "Temporary Email Service",
           body: "Create temporary emails quickly and easily for privacy and security.",
-          thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg" ,
+          thumbnailUrl: "https://files.catbox.moe/e6rhto.jpg" ,
           sourceUrl:  'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' ,
           mediaType: 1,
           showAdAttribution: true
@@ -440,7 +440,7 @@ You can use this email for temporary purposes. I will notify you if you receive 
                 externalAdReply: {
                   title: "Temporary Email Notification",
                   body: "You received a new email on your temporary inbox. Check it out now!",
-                  thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
+                  thumbnailUrl: "https://files.catbox.moe/e6rhto.jpg",
                   sourceUrl:  'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' ,
                   mediaType: 1,
                   showAdAttribution: true
