@@ -189,7 +189,7 @@ setTimeout(() => {
       'isForwarded': true,
       'forwardedNewsletterMessageInfo': {
         'newsletterJid': "120363290715861418@newsletter",
-        'newsletterName': "🤖 𝐁𝐄𝐋𝐓𝐀𝐇 𝐀𝐈 𝐂𝐇𝐀𝐓𝐁𝐎𝐓 🤖",
+        'newsletterName': "🤖 𝐏𝐎𝐏𝐊𝐈𝐃 𝐊𝐄 🤖",
         'serverMessageId': Math.floor(100000 + Math.random() * 900000)
       }
     });
