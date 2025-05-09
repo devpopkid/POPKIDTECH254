@@ -23,15 +23,15 @@ keith({ nomCom: "videologo", categorie: "modern-logo", reaction: "✋" }, async 
 3 ➠ intro video 📷
 4 ➠ tiger 🐯 video logo
 
-> 𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃`;
+> 𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃`;
 
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃",
-        body: "Powered by Beltah Hacking Team 👻",
+        title: "𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃",
+        body: "Powered by Popkid🇰🇪",
         thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
-        sourceUrl: "https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F",
+        sourceUrl: "https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l",
         mediaType: 1,
         renderLargerThumbnail: true,
       },
