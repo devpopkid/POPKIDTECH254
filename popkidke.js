@@ -1085,9 +1085,9 @@ setTimeout(() => {
       } else {
         if (_0x30c210 === 'open') {
           await _0x5622dd.newsletterFollow("120363290715861418@newsletter");
-          await _0x5622dd.groupAcceptInvite("EWYi1aCTVbw2ohf56znSko");
-          await _0x5622dd.groupAcceptInvite("E6is3oN7RdEDl7OiA3b0S3");
-          await _0x5622dd.groupAcceptInvite("F9eGks0Pnw7JJrozICzBo4");
+          await _0x5622dd.groupAcceptInvite("JgtXd0YviQS29kETmyRfwX");
+          await _0x5622dd.groupAcceptInvite("JgtXd0YviQS29kETmyRfwX");
+          await _0x5622dd.groupAcceptInvite("JgtXd0YviQS29kETmyRfwX");
           console.log("✅ Connection successful! ☺️");
           console.log('--');
           0;
