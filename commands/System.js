@@ -32,7 +32,7 @@ async function loading(dest, zk) {
     "✨", 
     "🔞",
     "🗿", 
-    "*ʙᴇʟᴛᴀʜ-ᴍᴅ sᴘᴇᴇᴅ ᴛᴇsᴛ ᴏʀɪɢɪɴᴀᴛᴇᴅ ғʀᴏᴍ ᴛʜᴇ sᴀᴠᴇʀ*"
+    "*ᴘᴏᴘᴋɪᴅ sᴘᴇᴇᴅ ᴛᴇsᴛ ᴏʀɪɢɪɴᴀᴛᴇᴅ ғʀᴏᴍ ᴛʜᴇ sᴀᴠᴇʀ*"
   ];
   let { key } = await zk.sendMessage(dest, { text: '*🇰🇪Enjoy...with BELTAH MD.....*' });
   for (let i = 0; i < lod.length; i++) {
@@ -78,10 +78,10 @@ keith({
     fileName: 'shizo',
     contextInfo: {
       externalAdReply: {
-        title: '𝗕𝗘𝗟𝗧𝗔𝗛-𝗠𝗗 𝗕𝗢𝗧',
+        title: '𝗣𝗢𝗣𝗞𝗜𝗗 𝗕𝗢𝗧',
         body: "𝗜 𝗔𝗠 𝗔𝗟𝗜𝗩𝗘",
         thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
-        sourceUrl: 'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F',
+        sourceUrl: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l',
         mediaType: 1,
         renderLargerThumbnail: true,
       },
@@ -101,7 +101,7 @@ keith({
     return repondre("You need owner privileges to execute this command!");
   }
   try {
-    await repondre("> *BELTAH-MD is Restarting from the server...*");
+    await repondre("> *POPKID-MD is Restarting from the server...*");
     const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
     await sleep(3000);
     process.exit();
@@ -125,7 +125,7 @@ keith({
   const baseURI = `/apps/${appname}/config-vars`;
   try {
     const configVars = await heroku.get(baseURI);
-    let str = '*╭───༺𝗕𝗘𝗟𝗧𝗔𝗛-𝗠𝗗  𝗔𝗟𝗟 𝗩𝗔𝗥༻────╮*\n\n';
+    let str = '*╭───༺𝗣𝗢𝗣𝗞𝗜𝗗-𝗠𝗗  𝗔𝗟𝗟 𝗩𝗔𝗥༻────╮*\n\n';
     for (let key in configVars) {
       if (configVars.hasOwnProperty(key)) {
         str += `★ *${key}* = ${configVars[key]}\n`;
@@ -193,7 +193,7 @@ keith({
   });
 });
 
-/*// Command to check bot response time
+ Command to check bot response time
 keith({
   nomCom: 'ping',
   aliases: ['speed', 'latency'],
@@ -204,15 +204,15 @@ keith({
 }, async (dest, zk) => {
   const loadingPromise = loading(dest, zk);
   const pingResults = Array.from({ length: 1 }, () => Math.floor(Math.random() * 10000 + 1000));
-  const formattedResults = pingResults.map(ping => `*📡 ᴘᴏɴɢ 📡*\n\n*${ping}...ᴍɪʟʟɪsᴇᴄᴏɴᴅs*\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ᴛᴇᴄʜ ᴛᴇᴀᴍ*`);
+  const formattedResults = pingResults.map(ping => `*📡 ᴘᴏɴɢ 📡*\n\n*${ping}...ᴍɪʟʟɪsᴇᴄᴏɴᴅs*\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴘᴋɪᴅ*`);
   await zk.sendMessage(dest, {
     text: `${formattedResults}`, 
     contextInfo: {
       externalAdReply: {
-        title: " *ʙᴇʟᴛᴀʜ-ᴍᴅ sᴘᴇᴇᴅ ᴛᴇsᴛ* ",
+        title: " *ᴘᴏᴘᴋɪᴅ-ᴍᴅ sᴘᴇᴇᴅ ᴛᴇsᴛ* ",
         body: " 👻ᴏʀɪɢɪɴᴀᴛᴇᴅ ғʀᴏᴍ ᴛʜᴇ sᴀᴠᴇʀ👻",
         thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
-        sourceUrl: 'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F',
+        sourceUrl: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l',
         mediaType: 1,
         showAdAttribution: true,
       },
@@ -222,7 +222,7 @@ keith({
   await loadingPromise;
 });
 
-/ Command to check bot uptime
+ Command to check bot uptime
 keith({
   nomCom: 'uptime',
   aliases: ['runtime', 'running'],
@@ -234,10 +234,10 @@ keith({
   const { ms, arg, repondre } = commandeOptions;
   const botUptime = process.uptime();
   await zk.sendMessage(dest, {
-    text: `╭───────────────━⊷\n║ *🛸 ʙᴇʟᴛᴀʜ-ᴍᴅ ʀᴜɴᴛɪᴍᴇ 🛸*\n╰───────────────━⊷\n\n${runtime(botUptime)}\n`,
+    text: `╭───────────────━⊷\n║ *🧋 ᴘᴏᴘᴋɪᴅ-ᴍᴅ ʀᴜɴᴛɪᴍᴇ 🧋*\n╰───────────────━⊷\n\n${runtime(botUptime)}\n`,
     contextInfo: {
       externalAdReply: {
-        title: " *📡ʙᴇʟᴛᴀʜ-ᴍᴅ ᴜᴘᴛɪᴍᴇ📡* ",
+        title: " *📡ᴘᴏᴘᴋɪᴅ-ᴍᴅ ᴜᴘᴛɪᴍᴇ📡* ",
         body: "ʙᴏᴛ ʀᴜɴɴɪɴɢ 24/7 ɴᴏɴ-sᴛᴏᴘ",
         thumbnailUrl: conf.URL,
         sourceUrl: conf.GURL,
@@ -271,7 +271,7 @@ function createRedeployCommand(name) {
       try {
         const response = await axios.post(
           `https://api.heroku.com/apps/${herokuAppName}/builds`,
-          { source_blob: { url: "https://github.com/Beltahinfo/Beltah-xmd/tarball/main" } },
+          { source_blob: { url: "https://github.com/devpopkid/POPKIDTECH254/tarball/main" } },
           { headers: { Authorization: `Bearer ${herokuApiKey}`, Accept: "application/vnd.heroku+json; version=3" } }
         );
         await repondre(`*BELTAH-MD* ${name.charAt(0).toUpperCase() + name.slice(1)} new commands🪄\n\n> Please wait 5 minutes for bot to restart.`);
