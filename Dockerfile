@@ -10,8 +10,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Beltah254/BELTAH-MD /root/beltah_Bot
-WORKDIR /root/beltah_Bot/
+RUN git clone https://github.com/devpopkid/POPKIDTECH254 /root/popkid_Bot
+WORKDIR /root/popkid_Bot/
 
 
 COPY package.json .
@@ -22,4 +22,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["node", "beltahke.js"]
+CMD ["node", "popkidke.js"]
