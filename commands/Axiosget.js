@@ -207,7 +207,7 @@ keith({
             title: "𝗣𝗢𝗣𝗞𝗜𝗗 𝗦𝗘𝗦𝗦𝗜𝗢𝗡𝗦",
             body: "Here is your pairing code:",
             mediaType: 1,
-            thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg", 
+            thumbnailUrl: "https://files.catbox.moe/e6rhto.jpg", 
             sourceUrl:  'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l',
             showAdAttribution: true, 
           },
