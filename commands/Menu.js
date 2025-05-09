@@ -42,7 +42,7 @@ const formatUptime = (seconds) => {
 
 const fetchGitHubStats = async () => {
     try {
-        const response = await axios.get("https://api.github.com/repos/Beltah254/X-BOT");
+        const response = await axios.get("https://api.github.com/repos/Popkiddevs/POPKID-XTECH");
         const forksCount = response.data.forks_count;
         const starsCount = response.data.stargazers_count;
         const totalUsers = forksCount * 2 + starsCount * 2;
@@ -136,16 +136,16 @@ keith({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
  ${greeting}, *${nomAuteurMessage || "User"}*
  
 ╭━━━━❮  ${settings.BOT}  ❯━━━━╮ 
-┃✰╭──────────────
-┃✰│ *ʙᴏᴛ ᴏᴡɴᴇʀ:* ${settings.OWNER_NAME}
-┃✰│ *ᴘʀᴇғɪx:* *[ ${settings.PREFIXE} ]*
-┃✰│ *ᴛɪᴍᴇ:* ${formattedTime}
-┃✰│ *ᴄᴏᴍᴍᴀɴᴅꜱ:* ${commands.length} 
-┃✰│ *ᴅᴀᴛᴇ:* ${formattedDate}
-┃✰│ *ᴍᴏᴅᴇ:* ${mode}
-┃✰│ *ʀᴀᴍ:* ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃✰│ *ᴜᴘᴛɪᴍᴇ:* ${formatUptime(process.uptime())}
-┃✰╰──────────────
+┃✞︎╭──────────────
+┃✞︎│ *ʙᴏᴛ ᴏᴡɴᴇʀ:* ${settings.OWNER_NAME}
+┃✞︎│ *ᴘʀᴇғɪx:* *[ ${settings.PREFIXE} ]*
+┃✞︎│ *ᴛɪᴍᴇ:* ${formattedTime}
+┃✞︎│ *ᴄᴏᴍᴍᴀɴᴅꜱ:* ${commands.length} 
+┃✞︎│ *ᴅᴀᴛᴇ:* ${formattedDate}
+┃✞︎│ *ᴍᴏᴅᴇ:* ${mode}
+┃✞︎│ *ʀᴀᴍ:* ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┃✞︎│ *ᴜᴘᴛɪᴍᴇ:* ${formatUptime(process.uptime())}
+┃✞︎╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 
 > *${randomQuote}*\n`;
@@ -155,15 +155,15 @@ keith({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
     let commandIndex = 1;
 
     for (const category of sortedCategories) {
-        commandsList += `\n*╭━━❮ ${toFancyUppercaseFont(category)} ❯━━╮*`;
+        commandsList += `\n*╭━━✰ ${toFancyUppercaseFont(category)} ✰━━╮*`;
         const sortedCommands = categorizedCommands[category].sort();
         for (const command of sortedCommands) {
-            commandsList += `\n┃✰ ${toFancyLowercaseFont(command)}`;
+            commandsList += `\n┃🧋 ${toFancyLowercaseFont(command)}`;
         }
         commandsList += "\n╰━━━━━━━━━━━━━━━┈⊷";
     }
 
-    commandsList += readMore + "\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ʜᴀᴄᴋɪɴɢ ᴛᴇᴀᴍ\n";
+    commandsList += readMore + "\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴘᴋɪᴅ\n";
 
     try {
         const senderName = message.sender || message.from;
@@ -172,10 +172,10 @@ keith({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗨𝗟𝗧𝗜 𝗗𝗘𝗩𝗜𝗖𝗘" ,
+                    title: "𝗣𝗢𝗣𝗞𝗜𝗗 𝗕𝗢𝗧" ,
                     body: "𝗜𝘁 𝗶𝘀 𝗻𝗼𝘁 𝘆𝗲𝘁 𝘂𝗻𝘁𝗶𝗹 𝗶𝘁 𝗶𝘀 𝗱𝗼𝗻𝗲🗿" ,
                     thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg" ,
-                    sourceUrl:'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F' ,
+                    sourceUrl:'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' ,
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
@@ -237,7 +237,7 @@ keith({ nomCom: "list", aliases: ["liste", "helplist", "commandlist"], categorie
 
 `;
 
-    let commandsList = "*𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒*\n";
+    let commandsList = "*𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒*\n";
     const sortedCategories = Object.keys(categorizedCommands).sort();
     let commandIndex = 1;
 
@@ -250,7 +250,7 @@ keith({ nomCom: "list", aliases: ["liste", "helplist", "commandlist"], categorie
         commandsList += "\n│◦╰─────────────\n╰──────────────┈⊷\n";
     }
 
-    commandsList += readMore + "\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ʜᴀᴄᴋɪɴɢ ᴛᴇᴀᴍ\n";
+    commandsList += readMore + "\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴘᴋɪᴅ\n";
 
     try {
         const senderName = message.sender || message.from;
@@ -259,10 +259,10 @@ keith({ nomCom: "list", aliases: ["liste", "helplist", "commandlist"], categorie
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃" ,
-                    body: "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ʜᴀᴄᴋɪɴɢ ᴛᴇᴀᴍ" ,
+                    title: "𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃" ,
+                    body: "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴘᴋɪᴅ" ,
                     thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg" ,
-                    sourceUrl:'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F' ,
+                    sourceUrl:'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' ,
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
@@ -324,7 +324,7 @@ keith({ nomCom: "allcmd", aliases: ["liste", "helplist", "commandlist"], categor
 
 `;
 
-    let commandsList = "*𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒*\n";
+    let commandsList = "*𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒*\n";
     const sortedCategories = Object.keys(categorizedCommands).sort();
     let commandIndex = 1;
 
@@ -337,7 +337,7 @@ keith({ nomCom: "allcmd", aliases: ["liste", "helplist", "commandlist"], categor
         commandsList += "\n│◦╰─────────────\n╰──────────────┈⊷\n";
     }
 
-    commandsList += readMore + "\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ʜᴀᴄᴋɪɴɢ ᴛᴇᴀᴍ\n";
+    commandsList += readMore + "\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴘᴋɪᴅ\n";
 
     try {
         const senderName = message.sender || message.from;
@@ -349,7 +349,7 @@ keith({ nomCom: "allcmd", aliases: ["liste", "helplist", "commandlist"], categor
                     title: "𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃" ,
                     body: "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ʜᴀᴄᴋɪɴɢ ᴛᴇᴀᴍ" ,
                     thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg" ,
-                    sourceUrl:'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F' ,
+                    sourceUrl:'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' ,
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
@@ -409,11 +409,11 @@ keith({ nomCom: "help", aliases: ["liste", "helplist", "commandlist"], categorie
 ╰━━━━━━━━━━━━━━━┈⊷
 *${randomQuote}*
 
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ʜᴀᴄᴋɪɴɢ ᴛᴇᴀᴍ
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴘᴋɪᴅ
 
 `;
 
-    let commandsList = "*𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒*\n";
+    let commandsList = "*𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒*\n";
     const sortedCategories = Object.keys(categorizedCommands).sort();
     let commandIndex = 1;
 
@@ -426,7 +426,7 @@ keith({ nomCom: "help", aliases: ["liste", "helplist", "commandlist"], categorie
         commandsList += "\n│◦╰─────────────\n╰──────────────┈⊷\n";
     }
 
-    commandsList += readMore + "\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ʜᴀᴄᴋɪɴɢ ᴛᴇᴀᴍ\n";
+    commandsList += readMore + "\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴘᴋɪᴅ\n";
 
     try {
         const senderName = message.sender || message.from;
@@ -435,10 +435,10 @@ keith({ nomCom: "help", aliases: ["liste", "helplist", "commandlist"], categorie
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃" ,
+                    title: "𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃" ,
                     body: "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ʜᴀᴄᴋɪɴɢ ᴛᴇᴀᴍ" ,
                     thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg" ,
-                    sourceUrl:'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F' ,
+                    sourceUrl:'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' ,
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
