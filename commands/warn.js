@@ -75,7 +75,7 @@ keith({
 
   const currentSettings = await getCurrentSettings();
 
-  let settingsMenu = "╭━━━━ 〔 *BELTAH-MD SETTINGS* 〕━━━━━━┈⊷\n\n";
+  let settingsMenu = "╭━━━━ 〔 *POPKID-MD SETTINGS* 〕━━━━━━┈⊷\n\n";
   settingsOptions.forEach((option, index) => {
     const currentState = currentSettings[option.nom];
     const stateEmoji = currentState === 'yes' || currentState === 'on' ? '✅' : '❌';
