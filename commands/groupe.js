@@ -31,7 +31,7 @@ keith({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `
-╭━━━〔  𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃  〕━━━┈⊷ 
+╭━━━〔  𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃  〕━━━┈⊷ 
 ┊✣╭──────────────
 ┊✣┊👥 Group : ${nomGroupe} 🚀 
 ┊✣┊👤 Author : *${nomAuteurMessage}* 👋 
