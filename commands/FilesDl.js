@@ -52,9 +52,9 @@ keith({
           mediaUrl: thumb,
           mediaType: 1,
           thumbnailUrl: thumb,
-          title: "𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃 APK Download",
+          title: "𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃 APK Download",
           body: appDetails.BK9.name,
-          sourceUrl:  'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F' , // Using configured source URL
+          sourceUrl:  'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' , // Using configured source URL
           showAdAttribution: true
         }
       }
@@ -113,9 +113,9 @@ keith({
       contextInfo: {
         externalAdReply: {
           title: `${conf.BOT} GIT CLONE`,
-          body: "𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃",
+          body: "𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃",
           thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg" ,
-          sourceUrl:  'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F' ,
+          sourceUrl:  'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' ,
           mediaType: 1,
           showAdAttribution: true
         }
