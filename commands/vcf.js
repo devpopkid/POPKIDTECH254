@@ -62,9 +62,9 @@ keith({
       caption: `𝐏𝐎𝐏𝐊𝐈𝐃 𝐗𝐓𝐄𝐂𝐇\n\nᴛᴏᴛᴀʟ ᴄᴏɴᴛᴀᴄᴛs : ${partic.length} \n\nᴠᴄғ ғᴏʀ : ${metadat.subject}\n\n> *ᴋᴇᴇᴘ ᴜsɪɴɢ ᴘᴏᴘᴋɪᴅ-ᴍᴅ*`, 
       contextInfo: {
         externalAdReply: {
-          mediaUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg" ,
+          mediaUrl: "https://files.catbox.moe/e6rhto.jpg" ,
           mediaType: 1,
-          thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
+          thumbnailUrl: "https://files.catbox.moe/e6rhto.jpg",
           title: "𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃",
           body: "ʏᴏᴜ ᴄᴀɴ ɴᴏᴡ ɪᴍᴘᴏʀᴛ ᴛᴏ ʏᴏᴜʀ ᴅᴇᴠɪᴄᴇ",
           sourceUrl:  'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' , // Using configured source URL
