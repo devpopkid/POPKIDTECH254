@@ -146,7 +146,7 @@ keith({
   const formattedResults = pingResults.map(ping => `*📡 ᴘᴏɴɢ 📡*\n\n*${ping}...ᴍɪʟʟɪsᴇᴄᴏɴᴅs*\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴘᴋɪᴅ*`);
   await zk.sendMessage(dest, {
     text: `${formattedResults}`,
-    contextInfo: getContextInfo("🛸 ʙᴇʟᴛᴀʜ-ᴍᴅ sᴘᴇᴇᴅ ᴛᴇsᴛ 🛸", '', 'https://files.catbox.moe/e6rhto.jpg'),
+    contextInfo: getContextInfo("🛸 ᴘᴏᴘᴋɪᴅ-ᴍᴅ sᴘᴇᴇᴅ ᴛᴇsᴛ 🛸", '', 'https://files.catbox.moe/e6rhto.jpg'),
   }, { quoted: fgg });
 
   console.log("Ping results sent successfully!");
