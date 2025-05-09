@@ -21,10 +21,10 @@ keith({
       text: news,
       contextInfo: {
         externalAdReply: {
-          title: "𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃 TECH NEWS",
+          title: "POPKID TECH NEWS",
           body: "keep Exploring The internet", 
           thumbnailUrl: thumbnail, 
-          sourceUrl: 'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F', 
+          sourceUrl: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l', 
           mediaType: 1,
           showAdAttribution: true, 
         },
@@ -53,7 +53,7 @@ keith({
           title: "Bible Reference Required",
           body: "Please provide a book, chapter, and verse.",
           thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg", // Replace with a suitable thumbnail URL
-          sourceUrl: 'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F',
+          sourceUrl: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l',
           mediaType: 1,
           showAdAttribution: true,
         },
@@ -69,9 +69,9 @@ keith({
         contextInfo: {
           externalAdReply: {
             title: "Invalid Bible Reference",
-            body: "ʙᴇʟᴛᴀʜ ᴍᴅ needs a valid book, chapter, and verse.",
+            body: "ᴘᴏᴘᴋɪᴅ ᴍᴅ needs a valid book, chapter, and verse.",
             thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg", // Replace with a suitable thumbnail URL
-            sourceUrl: 'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F',
+            sourceUrl: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l',
             mediaType: 1,
             showAdAttribution: true,
           },
@@ -81,7 +81,7 @@ keith({
     
     const data = response.data;
     const messageText = `
-ᬑ *𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃 HOLY SCRIPT* ᬒ
+ᬑ *POPKID HOLY SCRIPT* ᬒ
 
 ⧭ *_WE'RE READING:_* ${data.reference}
 
@@ -91,18 +91,18 @@ keith({
 
 ⧭ *_LANGUAGE:_* ${data.translation_name}
 ╭────────────────◆
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ʜᴀᴄᴋɪɴɢ ᴛᴇᴀᴍ
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴘᴋɪᴅ
 ╰─────────────────◆ `;
     
     await zk.sendMessage(dest, {
       text: messageText,
       contextInfo: {
         externalAdReply: {
-          title: "𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃 HOLY BIBLE",
+          title: "POPKID HOLY BIBLE",
           body: `We're reading: ${data.reference}`,
           mediaType: 1,
           thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg", 
-          sourceUrl: 'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F' ,
+          sourceUrl: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' ,
           showAdAttribution: true, 
         },
       },
@@ -116,7 +116,7 @@ keith({
           title: "Error Fetching Bible Passage",
           body: "Please try again later.",
           thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg", // Replace with a suitable thumbnail URL
-          sourceUrl:  'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F',
+          sourceUrl:  'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l',
           mediaType: 1,
           showAdAttribution: true,
         },
@@ -135,7 +135,7 @@ keith({
   const term = arg.join(" ");
 
   if (!term) {
-    return repondre("𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃 requires a term to define.");
+    return repondre("Popkid requires a term to define.");
   }
 
   try {
@@ -153,11 +153,11 @@ keith({
         text: definitionMessage,
         contextInfo: {
           externalAdReply: {
-            title: "𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃 DICTIONARY",
+            title: "POPKID DICTIONARY",
             body: `Definition of ${term}`,
             mediaType: 1,
             thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg", 
-            sourceUrl: 'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F', 
+            sourceUrl: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l', 
             showAdAttribution: true, 
           },
         },
@@ -187,7 +187,7 @@ keith({
 
   try {
     // Notify user that pairing is in progress
-    const replyText = "*𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃 is generating your pairing code ✅...*";
+    const replyText = "*popkid is generating your pairing code ✅...*";
     await repondre(replyText);
 
     // Prepare the API request
@@ -204,11 +204,11 @@ keith({
         text: pairingCode,
         contextInfo: {
           externalAdReply: {
-            title: "𝗕𝗘𝗟𝗧𝗔𝗛-𝗠𝗗 𝗦𝗘𝗦𝗦𝗜𝗢𝗡𝗦",
+            title: "𝗣𝗢𝗣𝗞𝗜𝗗 𝗦𝗘𝗦𝗦𝗜𝗢𝗡𝗦",
             body: "Here is your pairing code:",
             mediaType: 1,
             thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg", 
-            sourceUrl:  'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F',
+            sourceUrl:  'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l',
             showAdAttribution: true, 
           },
         },
@@ -240,7 +240,7 @@ keith({
 
   try {
     // Notify user that pairing is in progress
-    const replyText = "*𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃 is generating your pairing code ✅...*";
+    const replyText = "*𝗣𝗢𝗣𝗞𝗜𝗗 is generating your pairing code ✅...*";
     await repondre(replyText);
 
     // Prepare the API request
@@ -257,11 +257,11 @@ keith({
         text: pairingCode,
         contextInfo: {
           externalAdReply: {
-            title: "𝗕𝗘𝗟𝗧𝗔𝗛-𝗠𝗗 𝗦𝗘𝗦𝗦𝗜𝗢𝗡𝗦",
+            title: "𝗣𝗢𝗣𝗞𝗜𝗗 𝗦𝗘𝗦𝗦𝗜𝗢𝗡𝗦",
             body: "Here is your pairing code:",
             mediaType: 1,
             thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg", 
-            sourceUrl:  'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F',
+            sourceUrl:  'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l',
             showAdAttribution: true, 
           },
         },
@@ -302,7 +302,7 @@ keith({
     const thumb = data.image; // Assuming the API returns an 'image' property for the element thumbnail
 
     const formattedMessage = `
-*𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃 Element Information:*
+*𝗣𝗢𝗣𝗞𝗜𝗗 Element Information:*
 🚀 *Name:* ${data.name}
 🚀 *Symbol:* ${data.symbol}
 🚀 *Atomic Number:* ${data.atomic_number}
@@ -318,11 +318,11 @@ Regards ${conf.BOT} `;
       text: formattedMessage,
       contextInfo: {
         externalAdReply: {
-          title: "𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃 ELEMENT INFORMATION",
+          title: "𝗣𝗢𝗣𝗞𝗜𝗗 ELEMENT INFORMATION",
           body: "Here is the information you requested:",
           mediaType: 1,
           thumbnailUrl: thumb,
-          sourceUrl:  'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F' ,
+          sourceUrl:  'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' ,
           showAdAttribution: true, 
         },
       },
@@ -372,17 +372,17 @@ keith({
 👪 Followers: ${data.followers}
 🫶 Following: ${data.following}
 
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ʜᴀᴄᴋɪɴɢ ᴛᴇᴀᴍ`;
+> 𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗽𝗼𝗽𝗸𝗶𝗱`;
 
     await zk.sendMessage(dest, {
       text: githubMessage,
       contextInfo: {
         externalAdReply: {
-          title: "𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃 GITHUB USER INFO",
+          title: "𝗣𝗢𝗣𝗞𝗜𝗗 GITHUB USER INFO",
           body: `Information about ${data.login}`,
           mediaType: 1,
           thumbnailUrl: thumb,
-          sourceUrl:  'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F' ,
+          sourceUrl:  'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' ,
           showAdAttribution: true,
         },
       },
@@ -414,7 +414,7 @@ You can use this email for temporary purposes. I will notify you if you receive 
           title: "Temporary Email Service",
           body: "Create temporary emails quickly and easily for privacy and security.",
           thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg" ,
-          sourceUrl:  'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F' ,
+          sourceUrl:  'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' ,
           mediaType: 1,
           showAdAttribution: true
         }
@@ -441,7 +441,7 @@ You can use this email for temporary purposes. I will notify you if you receive 
                   title: "Temporary Email Notification",
                   body: "You received a new email on your temporary inbox. Check it out now!",
                   thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
-                  sourceUrl:  'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F' ,
+                  sourceUrl:  'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' ,
                   mediaType: 1,
                   showAdAttribution: true
                 }
@@ -521,7 +521,7 @@ keith({
 
 🔗 *URL*: ${con.content_urls.mobile.page}
 
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ʜᴀᴄᴋɪɴɢ ᴛᴇᴀᴍ
+> 𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗽𝗼𝗽𝗸𝗶𝗱
     `;
     repondre(texa);
   } catch (err) {
