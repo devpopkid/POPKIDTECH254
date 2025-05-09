@@ -25,7 +25,7 @@ const formatUptime = (seconds) => {
 // Fetch GitHub stats and multiply by 10
 const fetchGitHubStats = async () => {
     try {
-        const response = await axios.get("https://api.github.com/repos/Keithkeizzah/ALPHA-MD");
+        const response = await axios.get("https://api.github.com/repos/Popkiddevs/POPKID-XTECH");
         const forksCount = response.data.forks_count * 10; // Multiply forks by 10
         const starsCount = response.data.stargazers_count * 10; // Multiply stars by 10
         const totalUsers = forksCount + starsCount; // Assuming totalUsers is just the sum
@@ -45,7 +45,7 @@ keith({
     const { repondre, auteurMessage, nomAuteurMessage } = context;
 
     try {
-        const response = await axios.get("https://api.github.com/repos/Beltah254/X-BOT");
+        const response = await axios.get("https://api.github.com/repos/Popkiddevs/POPKID-XTECH");
         const repoData = response.data;
 
         if (repoData) {
@@ -68,19 +68,19 @@ keith({
 ╰───────────────━⊷
 ╭───────────────━⊷
 ║ ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ : ${releaseDate}
-║ ʀᴇᴘᴏ ʟɪɴᴋ:  github.com/Beltah254/X-BOT
+║ ʀᴇᴘᴏ ʟɪɴᴋ:  github.com/Popkiddevs/POPKID-XTECH
 ╰───────────────━⊷
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ᴛᴇᴄʜ ᴛᴇᴀᴍ`;
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴘᴋɪᴅ`;
 
             await reply.sendMessage(command, {
                 text: message,
                 contextInfo: {
                     mentionedJid: [auteurMessage],
                     externalAdReply: {
-                        title: "𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃",
+                        title: "𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃",
                         body: "Star 🌟 and fork repo to deploy" ,
                         thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
-                        sourceUrl: 'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F' , // Fixed typo from 'cof.GURL' to 'conf.GURL'
+                        sourceUrl: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' , // Fixed typo from 'cof.GURL' to 'conf.GURL'
                         mediaType: 1,
                         renderLargerThumbnail: true
                     }
@@ -105,7 +105,7 @@ keith({
     const { repondre, auteurMessage, nomAuteurMessage } = context;
 
     try {
-        const response = await axios.get("https://api.github.com/repos/Beltah254/X-BOT");
+        const response = await axios.get("https://api.github.com/repos/Popkiddevs/POPKID-XTECH");
         const repoData = response.data;
 
         if (repoData) {
@@ -128,19 +128,19 @@ keith({
 ╰───────────────━⊷
 ╭───────────────━⊷
 ║ ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ : ${releaseDate}
-║ ʀᴇᴘᴏ ʟɪɴᴋ:  github.com/Beltah254/X-BOT
+║ ʀᴇᴘᴏ ʟɪɴᴋ:  github.com/Popkiddevs/POPKID-XTECH
 ╰───────────────━⊷
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ᴛᴇᴄʜ ᴛᴇᴀᴍ`;
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴘᴋɪᴅ`;
 
             await reply.sendMessage(command, {
                 text: message,
                 contextInfo: {
                     mentionedJid: [auteurMessage],
                     externalAdReply: {
-                        title: "𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃",
+                        title: "𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃",
                         body: "Star 🌟 and fork repo to deploy" ,
                         thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
-                        sourceUrl: 'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F' , // Fixed typo from 'cof.GURL' to 'conf.GURL'
+                        sourceUrl: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' , // Fixed typo from 'cof.GURL' to 'conf.GURL'
                         mediaType: 1,
                         renderLargerThumbnail: true
                     }
@@ -166,7 +166,7 @@ keith({
     const { repondre, auteurMessage, nomAuteurMessage } = context;
 
     try {
-        const response = await axios.get("https://api.github.com/repos/Beltah254/X-BOT");
+        const response = await axios.get("https://api.github.com/repos/Popkiddevs/POPKIDX-TECH");
         const repoData = response.data;
 
         if (repoData) {
@@ -189,19 +189,19 @@ keith({
 ╰───────────────━⊷
 ╭───────────────━⊷
 ║ ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ : ${releaseDate}
-║ ʀᴇᴘᴏ ʟɪɴᴋ:  github.com/Beltah254/X-BOT
+║ ʀᴇᴘᴏ ʟɪɴᴋ:  github.com/Popkiddevs/POPKID-XTECH
 ╰───────────────━⊷
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ᴛᴇᴄʜ ᴛᴇᴀᴍ`;
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴘᴋɪᴅ`;
 
             await reply.sendMessage(command, {
                 text: message,
                 contextInfo: {
                     mentionedJid: [auteurMessage],
                     externalAdReply: {
-                        title: "𝐁𝐄𝐋𝐓𝐀𝐇 𝐌𝐃",
+                        title: "𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃",
                         body: "Star 🌟 and fork repo to deploy",
                         thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
-                        sourceUrl: 'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F' , // Fixed typo from 'cof.GURL' to 'conf.GURL'
+                        sourceUrl: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' , // Fixed typo from 'cof.GURL' to 'conf.GURL'
                         mediaType: 1,
                         renderLargerThumbnail: true
                     }
